@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+venv/
+.DS_Store
+manuscript/pg-*.jpg
+manuscript/_check.txt
+manuscript/*.pdf

@@ -1,0 +1,193 @@
+{
+ "_stage2_complete": true,
+ "age_validation": {
+  "under2y_held_out_error": -0.133,
+  "under2y_obs": 0.66,
+  "under2y_sim": 0.527,
+  "under5y_obs": 0.8,
+  "under5y_sim": 0.794,
+  "under9mo_obs": 0.33,
+  "under9mo_sim": 0.345
+ },
+ "allocation_budget_per_100k": 97125.0,
+ "allocation_dominant_intervention": "MR at six months",
+ "allocation_n_distinct": 1,
+ "allocation_objectives_coincide": true,
+ "boundary_ci": [
+  0.8459799587726593,
+  0.8595910668373108
+ ],
+ "boundary_ci_width": 0.01361110806465149,
+ "boundary_feature": "mr1_before",
+ "boundary_median": 0.8500008285045624,
+ "boundary_variance_decomposition": {
+  "share_district_of_joint": 0.703,
+  "share_replicate_of_joint": 0.173,
+  "var_district_only": 1.5e-05,
+  "var_joint": 2.2e-05,
+  "var_replicate_only": 4e-06
+ },
+ "calibrated_r0_mult": {
+  "Barishal": 1.406,
+  "Chattogram": 0.822,
+  "Dhaka": 1.217,
+  "Khulna": 0.899,
+  "Mymensingh": 1.114,
+  "Rajshahi": 1.185,
+  "Rangpur": 0.829,
+  "Sylhet": 0.604
+ },
+ "calibration_division_max_abs_err": 8.300000000000011,
+ "calibration_division_r2": 0.9967621345710947,
+ "calibration_scale_factor": 6.185,
+ "chw_chosen_off_frontier_share": 0.0,
+ "chw_chosen_share": 0.223,
+ "chw_competitive_share": 0.0,
+ "chw_fallback_n": 155,
+ "chw_only_feasible_share": 0.068,
+ "chw_route_counts": {
+  "competitive": 0,
+  "fallback_none_feasible": 155,
+  "only_feasible": 68
+ },
+ "clustering_diagnostic": {
+  "Clustering": {
+   "share_under2y": 0.453,
+   "share_under5y": 0.864,
+   "share_under9mo": 0.223,
+   "zero_dose_share_of_cases": 0.77
+  },
+  "Clustering and cohort coverage collapse": {
+   "share_under2y": 0.466,
+   "share_under5y": 0.864,
+   "share_under9mo": 0.231,
+   "zero_dose_share_of_cases": 0.691
+  },
+  "No clustering (main model)": {
+   "share_under2y": 0.527,
+   "share_under5y": 0.794,
+   "share_under9mo": 0.345,
+   "zero_dose_share_of_cases": 0.525
+  },
+  "Observed (WHO; Kamrujiaman et al. 2026)": {
+   "share_under2y": 0.66,
+   "share_under5y": 0.81,
+   "share_under9mo": 0.34,
+   "zero_dose_share_of_cases": 0.72
+  }
+ },
+ "cost_daly_corr": {
+  "CHW outreach": 0.54,
+  "MR at six months": -0.148,
+  "SIA campaign": 0.632,
+  "SMS reminder": 0.53
+ },
+ "cvar_label_share": {
+  "CHW outreach": 0.223,
+  "MR at six months": 0.515,
+  "SIA campaign": 0.049,
+  "SMS reminder": 0.213
+ },
+ "cvar_root_feature": "mr1_before",
+ "cvar_root_threshold": 0.8486771583557129,
+ "daly_picp90_conformal_range": [
+  0.9,
+  0.97
+ ],
+ "daly_picp90_highcov_range": [
+  1.0,
+  1.0
+ ],
+ "daly_picp90_raw_range": [
+  0.76,
+  0.93
+ ],
+ "det_label_share": {
+  "CHW outreach": 0.215,
+  "MR at six months": 0.586,
+  "SIA campaign": 0.082,
+  "SMS reminder": 0.117
+ },
+ "det_root_feature": "mr1_before",
+ "det_root_threshold": 0.8307861089706421,
+ "disagree_rate": 0.241,
+ "disagree_rate_far_boundary": 0.1240768094534712,
+ "disagree_rate_in_ood_region": 0.013559322033898305,
+ "disagree_rate_near_boundary": 0.48606811145510836,
+ "district_share_in_ood_region": 0.295,
+ "equity_gini": 0.01183802383764121,
+ "equity_gini_ci": [
+  0.0033,
+  0.0157
+ ],
+ "equity_maxmin": 1.062854127770074,
+ "joint_boundary_ci": [
+  0.8440863013267517,
+  0.8595972374081612
+ ],
+ "joint_boundary_ci_width": 0.015510936081409521,
+ "joint_boundary_median": 0.8480856418609619,
+ "joint_vs_independent_flip": 0.01,
+ "metamodel_max_rel_RMSE_test": 0.1105,
+ "metamodel_mean_R2_extrapolation_diag": 0.11708333333333332,
+ "metamodel_mean_R2_highcov_deployed": 0.5928333333333334,
+ "metamodel_mean_R2_test": 0.9758333333333332,
+ "metamodel_mean_R2_test_cost": 0.9877499999999999,
+ "metamodel_mean_R2_test_health": 0.969875,
+ "metamodel_min_R2_test": 0.906,
+ "min_distance_selected": 0.08447173324843342,
+ "n_centroids": 400,
+ "n_chw_off_frontier": 0,
+ "n_flip_types": 3,
+ "nested_boundary_ci": [
+  0.8458692729473114,
+  0.8488837115466594
+ ],
+ "nested_boundary_ci_width": 0.003014438599348024,
+ "nested_boundary_feature": "mr1_before",
+ "nested_boundary_median": 0.8486771583557129,
+ "nested_feature_agreement_with_district": 1.0,
+ "nested_feature_frequency": {
+  "mr1_before": 1.0
+ },
+ "ood_cutoff": 0.92,
+ "pareto_frequency": {
+  "CHW outreach": 0.231,
+  "MR at six months": 0.934,
+  "SIA campaign": 0.151,
+  "SMS reminder": 1.0
+ },
+ "scalar_ratio_minimizer_frequency": {
+  "CHW outreach": 0.0,
+  "MR at six months": 0.7,
+  "SIA campaign": 0.0,
+  "SMS reminder": 0.3
+ },
+ "sensitivity_thresholds": {
+  "cvar_alpha": [
+   0.849,
+   0.849,
+   0.849
+  ],
+  "delta": [
+   0.86,
+   0.849,
+   0.844
+  ]
+ },
+ "split": {
+  "design": "deployment split covers the full MR1 design range",
+  "extrapolation_rule": "diagnostic model trained on MR1 < 0.92, evaluated at MR1 >= 0.92",
+  "global_seed": 20260707,
+  "n_calib": 80,
+  "n_diag_train": 261,
+  "n_draws": 60,
+  "n_ensemble": 25,
+  "n_extrapolation_probe": 52,
+  "n_test": 100,
+  "n_train": 220,
+  "split_seed": 424242
+ },
+ "split_candidate_resolution": 0.0002663351771529099,
+ "tree_agreement": 0.759
+}
